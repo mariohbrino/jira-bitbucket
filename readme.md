@@ -1,15 +1,9 @@
 # Ubuntu server with Jira Software and Bitbucket
 This script will install nginx, mysql server, download jira/bitbucket and start the install. Also it will add/change some config files for nginx, mysql, jira and bitbucket.
 
-Guide to install jira software self-host
-```bash
-https://confluence.atlassian.com/adminjiraserver/installing-jira-applications-on-linux-from-archive-file-938846844.html
-```
+Guide to install jira software self-host [installing jira applications on linux from archive file](https://confluence.atlassian.com/adminjiraserver/installing-jira-applications-on-linux-from-archive-file-938846844.html)
 
-Guide to install bitbucket self-host
-```bash
-https://confluence.atlassian.com/bitbucketserver/install-bitbucket-server-on-linux-from-an-archive-file-868977010.html
-```
+Guide to install bitbucket self-host [install bitbucket server on linux from an archive file](https://confluence.atlassian.com/bitbucketserver/install-bitbucket-server-on-linux-from-an-archive-file-868977010.html)
 
 Clone this repo and execute the `setup.sh` file, and follow the instructions to install
 ```
