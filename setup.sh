@@ -12,7 +12,7 @@ sudo rm /etc/nginx/sites-available/default
 sudo rm /etc/nginx/sites-enabled/default
 
 echo 'install mysql server'
-sudo apt install mysql-server
+sudo apt -y install mysql-server
 
 sudo cp ./conf/mysql/my.cnf /etc/mysql/conf.d/
 
