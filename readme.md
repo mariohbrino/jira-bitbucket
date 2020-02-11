@@ -22,6 +22,11 @@ GRANT ALL PRIVILEGES on bitbucket.* TO 'bitbucket'@'localhost' IDENTIFIED BY 'de
 flush privileges;
 ```
 
+After install you many need to reboot the vm
+```bash
+sudo reboot
+```
+
 Commands that you may need to use
 ```bash
 sudo systemctl enable jira
