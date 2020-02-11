@@ -28,6 +28,7 @@ GRANT ALL PRIVILEGES on bitbucket.* TO 'bitbucket'@'localhost' IDENTIFIED BY 'de
 flush privileges;
 ```
 
+Commands that you may need to use
 ```bash
 sudo systemctl enable jira
 sudo systemctl start jira
